@@ -99,9 +99,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\AzureDevopsLab-AutoTest\AzureDevopsLab-AutoTest.csproj">
+    <ProjectReference Include="..\AzureDevopsLab-AutoTest\AzureDevopsLabAutoTest.csproj">
       <Project>{6AB6E1C6-294B-42CE-A39B-7C8C53E3573B}</Project>
-      <Name>AzureDevopsLab-AutoTest</Name>
+      <Name>AzureDevopsLabAutoTest</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

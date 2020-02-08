@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsLab-AutoTest", "AzureDevopsLab-AutoTest.csproj", "{6AB6E1C6-294B-42CE-A39B-7C8C53E3573B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsLabAutoTest", "AzureDevopsLabAutoTest.csproj", "{6AB6E1C6-294B-42CE-A39B-7C8C53E3573B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsLab-AutoTest.Tests", "..\AzureDevopsLab-AutoTest.Tests\AzureDevopsLab-AutoTest.Tests.csproj", "{B24E9D4B-03B4-4D19-92EA-3BAC4446A7B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDevopsLabAutoTest.Tests", "..\AzureDevopsLab-AutoTest.Tests\AzureDevopsLabAutoTest.Tests.csproj", "{B24E9D4B-03B4-4D19-92EA-3BAC4446A7B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
