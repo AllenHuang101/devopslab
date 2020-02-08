@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace AzureDevopsLab_AutoTest.Controllers
+namespace devopslabautotest.Controllers
 {
     public class HomeController : Controller
     {

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // 組件的一般資訊會透過將設定 
 // 控制。變更這些屬性值可修改與組件關聯的
 // 資訊。
-[assembly: AssemblyTitle("AzureDevopsLab_AutoTest")]
+[assembly: AssemblyTitle("devopslabautotest.Tests")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("AzureDevopsLab_AutoTest")]
+[assembly: AssemblyProduct("devopslabautotest.Tests")]
 [assembly: AssemblyCopyright("Copyright (C)  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // 下列 GUID 為專案公開 (Expose) 至 COM 時所要使用的 typelib ID
-[assembly: Guid("6285618b-52b4-47a6-9fe6-e69bab4af971")]
+[assembly: Guid("f1fdf552-eb5c-4d5d-ad3c-a9fbfd0aefbf")]
 
 // 組件的版本資訊是由下列四項值構成:
 //

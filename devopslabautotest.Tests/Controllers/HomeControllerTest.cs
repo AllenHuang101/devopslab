@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using AzureDevopsLab_AutoTest;
-using AzureDevopsLab_AutoTest.Controllers;
+using devopslabautotest;
+using devopslabautotest.Controllers;
 
-namespace AzureDevopsLab_AutoTest.Tests.Controllers
+namespace devopslabautotest.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest

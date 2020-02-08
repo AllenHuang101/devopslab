@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace AzureDevopsLab_AutoTest
+namespace devopslabautotest
 {
     public class BundleConfig
     {
