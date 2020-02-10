@@ -13,11 +13,10 @@ namespace devopslabautotest.Controllers
 {
     public class HomeController : Controller
     {
-        private string connStr = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
-
 
         public string queryEmployee(string name = "Allen")
         {
+            string connStr = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
             using (SqlConnection connection = new SqlConnection(connStr))
             {
 
