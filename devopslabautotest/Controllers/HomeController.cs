@@ -83,6 +83,18 @@ namespace devopslabautotest.Controllers
 
         public ActionResult Index()
         {
+            string connStr = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
+            SqlConnection connection = new SqlConnection(connStr);
+            SqlCommand command;
+            string param = "test";
+            string sensitiveQuery = string.Format("INSERT INTO Users (name) VALUES (\"{0}\")", param);
+            command = new SqlCommand(sensitiveQuery); // Sensitive
+
+            command.CommandText = sensitiveQuery; // Sensitive
+
+            SqlDataAdapter adapter;
+            adapter = new SqlDataAdapter(sensitiveQuery, connection); // Sensitive
+
             return View();
         }
 
