@@ -13,10 +13,23 @@ namespace devopslabautotest.Controllers
 {
     public class HomeController : Controller
     {
-
-        public void Bar(SqlConnection connection, string param)
+        public void injectionSample(string name, string pass)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=MyDb;Integrated Security=True");
+            string qry = "select * from MyTable where Email='" + name + "'and Password='" + pass + "' ";
+            SqlDataAdapter adpt = new SqlDataAdapter(qry, con);
+            DataTable dt = new DataTable();
+            adpt.Fill(dt);
+            if (dt.Rows.Count >= 1)
+            {
+                Response.Redirect("index.aspx");
+            }
+             
+        }
+        public void Bar(SqlConnection connection)
         {
             SqlCommand command;
+            string param = "test";
             string sensitiveQuery = string.Format("INSERT INTO Users (name) VALUES (\"{0}\")", param);
             command = new SqlCommand(sensitiveQuery); // Sensitive
 
