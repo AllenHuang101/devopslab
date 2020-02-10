@@ -21,7 +21,7 @@ namespace devopslabautotest.Controllers
             {
 
 
-                string queryString = $"select * from Employee where Name ='{name}' ";
+                string queryString = string.Format("select * from Employee where Name ={0}",name);
 
 
                 SqlDataAdapter adapter = new SqlDataAdapter(queryString, connection);
